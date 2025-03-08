@@ -4,7 +4,7 @@
   "description": "Screen time bypasser for websites utilizing iOS 18's bugs", 
 
   "scope": "https://screentimebypass.github.io",
-  "start_url": "https://screentimebypass.github.io",
+  "start_url": "https://screentimebypass.github.io/yt.html",
  
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
