@@ -1,7 +1,7 @@
 {
   "name": "Screentime",
   "short_name": "SCRNTM",
-  "description": "Screen time bypasser for websites utilizing iOS 18's bugs"
+  "description": "Screen time bypasser for websites utilizing iOS 18's bugs", 
 
   "scope": "https://screentimebypass.github.io",
   "start_url": "https://screentimebypass.github.io",
