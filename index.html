@@ -1,63 +1,26 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Embed Redirect</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            flex-direction: column;
-            background-color: #f1f1f1;
-        }
-
-        #google-logo {
-            cursor: pointer;
-            margin-bottom: 20px;
-        }
-
-        iframe {
-            border: none;
-            width: 80%;
-            height: 400px;
-            margin-bottom: 20px;
-        }
-
-        .redirect-button {
-            background-color: #4285F4;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .redirect-button:hover {
-            background-color: #357AE8;
-        }
-    </style>
+<html lang="en"><meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screentime</title>
+  <link rel="canonical" href="https://screentimebypass.github.io/">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="canonical" href="https://screentimebypass.github.io/">
+  <link rel="manifest" href="https://screentimebypass.github.io/manifest.webmanifest">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Viga">
+  <link rel="stylesheet" type="text/css" href="https://screentimebypass.github.io/style.css">
 </head>
 <body>
-    <!-- Google Logo -->
-    <img id="google-logo" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Google_2015_logo.svg" alt="Google Logo" width="150" onclick="redirectToGoogle()">
-
-    <!-- Embedded Iframe (Google Page) -->
-    <iframe src="https://www.google.com" id="google-iframe"></iframe>
-
-    <!-- Redirect Button (similar to YouTube logo behavior) -->
-    <button class="redirect-button" onclick="redirectToGoogle()">Besuche Google</button>
-
-    <script>
-        // Funktion, um auf die Google-Website weiterzuleiten
-        function redirectToGoogle() {
-            window.location.href = "https://www.google.com";
-        }
-    </script>
+  <h1>Choose a website to open:</h1>
+  <div>
+    <a href="https://youtube.com">YouTube</a>
+  </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?amp;list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/sw.js',
+        )
+      }
+  </script>
 </body>
 </html>
