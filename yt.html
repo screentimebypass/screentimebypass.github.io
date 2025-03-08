@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <link rel="canonical" href="https://screentimebypass.github.io/">
+    <link rel="manifest" href="https://screentimebypass.github.io/manifest.webmanifest">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Viga">
+    <link rel="stylesheet" type="text/css" href="https://screentimebypass.github.io/style.css">
+    <link rel="canonical" href="https://screentimebypass.github.io/">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="canonical" href="https://screentimebypass.github.io/">
+    <link rel="manifest" href="https://screentimebypass.github.io/manifest.webmanifest">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Viga">
+    <link rel="stylesheet" type="text/css" href="https://screentimebypass.github.io/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe-ähnliches Element</title>
@@ -59,6 +69,11 @@
             const targetUrl = "https://www.youtube.com";
             // Weiterleitung auf die Ziel-Website
             window.location.href = targetUrl;
+        }
+        if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/sw.js',
+            )
         }
     </script>
 </body>
