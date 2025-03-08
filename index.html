@@ -1,1 +1,21 @@
-<p>test</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screentime</title>
+  <link rel="canonical" href="https://screentimebypass.github.io/" />
+  <link rel="manifest" href="/manifest.webmanifest">
+</head>
+<body>
+  <h1>Choose a website to open:</h1>
+    …
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/sw.js',
+        )
+      }
+  </script>
+</body>
+</html>
