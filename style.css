@@ -27,7 +27,7 @@ a:link {
     color: #FFFFFF;
   }
 
-a:visited {
+/*a:visited {
     color: #CFFBFD;
   }
 
@@ -37,7 +37,10 @@ a:hover {
 
 a:active {
     color: #A8E8E8;
-  }
+  }*/
+.current {
+    color: #58cced;
+}
 .sidenav {
    height: 100%;
    width: 0; 
@@ -103,6 +106,13 @@ a:active {
 .top-bar .title {
     font-size: 1rem;
     color: #FFFFFF
+}
+.youtube {
+    max-width: 85%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
 }
 #main {
     transition: margin-left .5s;
