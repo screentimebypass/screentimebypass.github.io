@@ -9,14 +9,19 @@ body {
     align-items: center;
   }
 h1 {
-    font-size: 3rem; 
-    margin: 1rem;
+    font-size: 2.7rem; 
+    margin: 4rem;
   }
 p {
     color: #FFFFFF;
     font-family: "Viga", serif;
     font-size: 2rem;
     margin: 1rem;
+    overflow-wrap: break-word;
+    max-width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 a:link {
     color: #FFFFFF;
@@ -49,16 +54,16 @@ a:active {
     text-decoration: none;
   }
 .top-bar {
-  z-index: 20;
-  display: flex;
-  justify-content: center;
-  background-color: #21939b;
-  padding: 0.4rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  align-items: center;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    background-color: #21939b;
+    padding: 0.4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
 }
 .padding {
   padding: 0 clamp(20px, 5%, 100px);
@@ -68,6 +73,15 @@ a:active {
     color= #FFFFFF
 }
 #main {
-   transition: margin-left .5s;
-   padding: 20px;
-  }
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.youtube {
+    position: relative;
+    width: 80%;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
