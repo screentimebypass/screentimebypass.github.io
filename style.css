@@ -63,6 +63,9 @@ a:active {
    padding-top: 0; 
    transition: 0.5s; 
   }
+  .sidenav .current a {
+    color: #58cced;
+  }
   .sidenav a {
     color: white;
     font-size: 2rem;
