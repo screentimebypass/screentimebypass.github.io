@@ -51,7 +51,7 @@ a:active {
 .top-bar {
   z-index: 20;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #21939b;
   padding: 0.4rem;
   position: fixed;
