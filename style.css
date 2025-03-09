@@ -76,12 +76,3 @@ a:active {
     transition: margin-left .5s;
     padding: 20px;
 }
-.youtube {
-    position: relative;
-    width: 80%;
-    max-width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    margin: 0 auto;
-}
