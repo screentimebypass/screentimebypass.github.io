@@ -48,9 +48,6 @@ a:hover {
 a:active {
     color: #A8E8E8;
   }*/
-.current {
-    color: #58cced;
-}
 .sidenav {
    height: 100%;
    width: 0; 
