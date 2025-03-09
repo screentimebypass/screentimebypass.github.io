@@ -1,5 +1,5 @@
 body {
-    background-color: #a1d3e1;
+    background-color: ##58cced;
     font-family: "Viga", sans-serif;
     font-size: 2rem; 
     color: white;
@@ -55,3 +55,7 @@ a:active {
 .padding {
   padding: 0 clamp(20px, 5%, 100px);
 }
+.top-bar .title {
+    font-size: 1.2rem;
+    color= #FFFFFF
+    
