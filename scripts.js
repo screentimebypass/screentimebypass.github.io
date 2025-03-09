@@ -1,10 +1,11 @@
-let isNavOpen = false;
-
 if (navigator.serviceWorker) {
         navigator.serviceWorker.register (
           '/sw.js',
         )
       }
+
+let isNavOpen = false;
+
 function toggleNav() {
     if (isNavOpen) {
         closeNav();
