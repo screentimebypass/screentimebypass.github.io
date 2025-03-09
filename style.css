@@ -45,7 +45,7 @@ a:active {
    z-index: 1; 
    top: 0; 
    left: 0;
-   background-color: #21939b; 
+   background-color: #007a87; 
    overflow-x: hidden; 
    padding-top: 4rem; 
    transition: 0.5s; 
@@ -55,11 +55,12 @@ a:active {
     font-size: 3rem;
   } 
 .svg-img {
-    top: 0.45rem;
+    top: 0.28rem;
     left: auto;
-    right: 0.1rem;
+    right: 0.4rem;
     width: 25px;
     z-index: 25;
+    position: fixed;
   }
 .closebtn {
     position: absolute;
@@ -69,7 +70,7 @@ a:active {
     margin-left: 50px;
     }
 .button {
-    background-color: #21939b;
+    background-color: #007a87;
     border: none;
     color: white;
     padding: 10px 10px;
