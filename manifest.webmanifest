@@ -1,13 +1,13 @@
 {
   "name": "Screentime Bypassing YouTube",
   "short_name": "Screentime",
-  "description": "Screen time bypasser for websites utilizing iOS 18's bugs", 
+  "description": "Screen time bypasser for youtube utilizing iOS 18's bugs", 
 
   "scope": "https://screentimebypass.github.io",
   "start_url": "https://screentimebypass.github.io/index.html",
  
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#58cced",
+  "theme_color": "#007a87",
  
   "display": "standalone", 
  
